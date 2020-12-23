@@ -1,0 +1,101 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  height: 100%;
+  position: relative;
+  padding-bottom: 59px;
+}
+.header {
+  background-color: #f8f8f8;
+
+  .flex {
+    min-height: 80px;
+    img {
+      width: 120px;
+      margin-top: -8px;
+      margin-right: -8px;
+    }
+  }
+}
+.flex {
+  display: flex;
+  align-items: center;
+  color: #3d3d3f;
+  text-decoration: none;
+}
+i {
+  font-size: 1.4em;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  color: #ff9925;
+}
+
+.logo {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.desc {
+  font-size: 20px;
+  span {
+    color: #ff9925;
+    padding-left: 10px;
+    font-size: 2em;
+  }
+}
+.bg {
+  text-align: center;
+}
+.ar {
+  justify-content: flex-end;
+}
+.phone {
+  margin-left: 30px;
+}
+.test {
+  width: 900px;
+  height: 500px;
+  object-fit: cover;
+}
+.diapo {
+  text-align: center;
+}
+.profil {
+  max-width: 360px;
+  margin: 20px auto;
+  img {
+    max-height: 60px;
+  }
+  .profil-desc {
+    padding-left: 10px;
+    margin-top: -8px;
+    p {
+      margin-bottom: -3px;
+      max-height: 23px;
+      color: #202020;
+      font-size: 15px;
+      span {
+        color: #ff9925;
+
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+h3 {
+  font-size: 1.1em;
+}
+.profil {
+  p {
+    margin: 0;
+  }
+}
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mysticky {
+  position: absolute;
+  bottom: 0;
+}
