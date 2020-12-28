@@ -2,7 +2,6 @@ body {
   font-family: "Work Sans", sans-serif;
   height: 100%;
   position: relative;
-  padding-bottom: 59px;
 }
 
 .header {
@@ -124,10 +123,5 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.mysticky {
-  position: absolute;
-  bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
