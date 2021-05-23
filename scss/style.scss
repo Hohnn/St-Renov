@@ -111,3 +111,20 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
 }
+
+
+.carousel ol {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  li {
+    margin: 0;
+    height: auto;
+    border-bottom: 0;
+    width: 100%;
+  }
+  li:hover {
+    opacity: 1;
+    transform: scale(2);
+  }
+}
